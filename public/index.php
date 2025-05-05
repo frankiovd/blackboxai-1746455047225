@@ -1,92 +1,98 @@
 <?php include 'header.php'; ?>
 
-<div class="container py-5" style="min-height: 80vh;">
+<div class="container-fluid p-0">
     <!-- Hero Section -->
-    <div class="text-center mb-5">
-        <h1 class="display-3" style="font-family: 'Montserrat', sans-serif; color: #1A73E8;">FitConnect</h1>
-        <p class="lead" style="font-family: 'Open Sans', sans-serif; color: #212529;">
-            Conectando entrenadores personales y clientes para alcanzar tus metas de fitness de manera efectiva y sencilla.
-        </p>
-        <a href="register.php" class="btn btn-lg" style="background-color: #1A73E8; color: #FFFFFF; transition: background-color 0.3s ease;">
-            Regístrate Ahora
-        </a>
-        <a href="login.php" class="btn btn-lg ms-3" style="background-color: #FF6B35; color: #FFFFFF; transition: background-color 0.3s ease;">
-            Iniciar Sesión
-        </a>
+    <div class="bg-light section-padding">
+        <div class="container text-center">
+            <h1 class="display-3 animate-fade-in mb-4">
+                <i class="fas fa-dumbbell text-primary me-2"></i>FitConnect
+            </h1>
+            <p class="lead animate-fade-in-delay mb-5">
+                La plataforma que conecta entrenadores personales y clientes para alcanzar tus metas de fitness.
+            </p>
+            <div class="animate-fade-in-delay">
+                <a href="register.php" class="btn btn-primary btn-lg me-3">
+                    <i class="fas fa-user-plus me-2"></i>Regístrate Ahora
+                </a>
+                <a href="login.php" class="btn btn-outline-primary btn-lg">
+                    <i class="fas fa-sign-in-alt me-2"></i>Iniciar Sesión
+                </a>
+            </div>
+        </div>
     </div>
 
     <!-- Features Section -->
-    <div class="row text-center mb-5">
-        <div class="col-md-4 mb-4">
-            <i class="fas fa-user-friends fa-3x mb-3" style="color: #FF6B35;"></i>
-            <h4 style="font-family: 'Montserrat', sans-serif; color: #212529;">Comunicación Directa</h4>
-            <p style="font-family: 'Open Sans', sans-serif; color: #212529;">
-                Mensajería instantánea entre entrenadores y clientes para una comunicación fluida.
-            </p>
-        </div>
-        <div class="col-md-4 mb-4">
-            <i class="fas fa-calendar-alt fa-3x mb-3" style="color: #1A73E8;"></i>
-            <h4 style="font-family: 'Montserrat', sans-serif; color: #212529;">Calendario Compartido</h4>
-            <p style="font-family: 'Open Sans', sans-serif; color: #212529;">
-                Programa y gestiona tus sesiones de entrenamiento fácilmente.
-            </p>
-        </div>
-        <div class="col-md-4 mb-4">
-            <i class="fas fa-dumbbell fa-3x mb-3" style="color: #FF6B35;"></i>
-            <h4 style="font-family: 'Montserrat', sans-serif; color: #212529;">Planes Personalizados</h4>
-            <p style="font-family: 'Open Sans', sans-serif; color: #212529;">
-                Entrenadores pueden subir planes de ejercicio y nutrición adaptados a ti.
-            </p>
+    <div class="container section-padding">
+        <h2 class="text-center mb-5">Características Principales</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-user-friends feature-icon"></i>
+                    <h4>Comunicación Directa</h4>
+                    <p>Mensajería instantánea entre entrenadores y clientes para una comunicación efectiva.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-calendar-alt feature-icon"></i>
+                    <h4>Calendario Compartido</h4>
+                    <p>Programa y gestiona tus sesiones de entrenamiento de manera sencilla.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-dumbbell feature-icon"></i>
+                    <h4>Planes Personalizados</h4>
+                    <p>Recibe planes de ejercicio y nutrición adaptados a tus objetivos.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- How It Works Section -->
-    <div class="mb-5">
-        <h2 class="text-center mb-4" style="font-family: 'Montserrat', sans-serif; color: #1A73E8;">¿Cómo Funciona?</h2>
-        <div class="row text-center">
-            <div class="col-md-4 mb-4">
-                <div class="p-4 border rounded shadow-sm h-100">
-                    <i class="fas fa-user-plus fa-2x mb-3" style="color: #FF6B35;"></i>
-                    <h5 style="font-family: 'Montserrat', sans-serif;">Regístrate</h5>
-                    <p style="font-family: 'Open Sans', sans-serif;">
-                        Crea tu cuenta como entrenador o cliente para comenzar.
-                    </p>
+    <div class="bg-light section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">¿Cómo Funciona?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-user-plus fa-2x"></i>
+                        </div>
+                        <h4>1. Regístrate</h4>
+                        <p>Crea tu cuenta como entrenador o cliente para comenzar tu viaje fitness.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="p-4 border rounded shadow-sm h-100">
-                    <i class="fas fa-comments fa-2x mb-3" style="color: #1A73E8;"></i>
-                    <h5 style="font-family: 'Montserrat', sans-serif;">Conéctate</h5>
-                    <p style="font-family: 'Open Sans', sans-serif;">
-                        Comunícate directamente con tu entrenador o cliente.
-                    </p>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-comments fa-2x"></i>
+                        </div>
+                        <h4>2. Conéctate</h4>
+                        <p>Establece conexión con tu entrenador o encuentra clientes potenciales.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="p-4 border rounded shadow-sm h-100">
-                    <i class="fas fa-chart-line fa-2x mb-3" style="color: #FF6B35;"></i>
-                    <h5 style="font-family: 'Montserrat', sans-serif;">Alcanza tus Metas</h5>
-                    <p style="font-family: 'Open Sans', sans-serif;">
-                        Sigue tus planes y sesiones para mejorar tu salud y forma física.
-                    </p>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-chart-line fa-2x"></i>
+                        </div>
+                        <h4>3. Alcanza tus Metas</h4>
+                        <p>Sigue tu plan personalizado y alcanza tus objetivos de forma efectiva.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Call to Action -->
-    <div class="text-center">
-        <a href="register.php" class="btn btn-lg" style="background-color: #1A73E8; color: #FFFFFF; transition: background-color 0.3s ease;">
-            Comienza Hoy
+    <div class="container section-padding text-center">
+        <h2 class="mb-4">¿Listo para comenzar?</h2>
+        <p class="lead mb-4">Únete a nuestra comunidad y transforma tu vida con FitConnect</p>
+        <a href="register.php" class="btn btn-primary btn-lg">
+            <i class="fas fa-rocket me-2"></i>Comienza Hoy
         </a>
     </div>
 </div>
-
-<style>
-    a.btn:hover {
-        color: #FFFFFF !important;
-        background-color: #FF6B35 !important;
-    }
-</style>
 
 <?php include 'footer.php'; ?>
